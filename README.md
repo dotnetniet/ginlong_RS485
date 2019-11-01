@@ -1,4 +1,4 @@
-# ginlong_RS485
+# Ginlong_RS485
 instructions and code samples for connecting to ginlong inverter over RS485
 
 ## Hardware
@@ -12,8 +12,8 @@ The ginlong inverter uses an exceedconn EC series plug for the commes port. I be
 
 Only 2 pins are actually used for the connection.
 
-pin 3-A
-pin 4-B
+pin 3-A  
+pin 4-B  
 
 ### RS485 adapter
 
@@ -36,5 +36,5 @@ Once connected any modbus RTU software should be able to communicate with the in
 
 
 ## TODO
-add sample code using node-modbus-serial
-add modbus tables for inverter
+add sample code using node-modbus-serial  
+add modbus tables for inverter  
