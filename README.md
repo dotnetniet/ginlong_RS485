@@ -26,7 +26,7 @@ The most common are RS-485 USB adapters, which are also the easiest to work with
 ![alt text](https://github.com/RobertSmart/ginlong_RS485/blob/master/images/RS485_ttl.jpg "TTL RS485 adapter")
 
 
-##Connections
+## Connections
 It is simply a case of connecting pin 3 of the plug to the 'A' side of the RS485 adapter, and connecting pin 4 to the 'B' side of the connector.
 
 
@@ -35,6 +35,6 @@ It is simply a case of connecting pin 3 of the plug to the 'A' side of the RS485
 Once connected any modbus RTU software should be able to communicate with the inverter. The default baud rate is 9600, and the default slave address is 1. These can both be configured through the settings menu on the inverter.
 
 
-##TODO
+## TODO
 add sample code using node-modbus-serial
 add modbus tables for inverter
