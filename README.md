@@ -34,7 +34,12 @@ It is simply a case of connecting pin 3 of the plug to the 'A' side of the RS485
 
 Once connected any modbus RTU software should be able to communicate with the inverter. The default baud rate is 9600, and the default slave address is 1. These can both be configured through the settings menu on the inverter.
 
+Modbus tables downloaded from https://www.scss.tcd.ie/coghlan/Elios4you/RS485_MODBUS-Hybrid-BACoghlan-201811228-1854.pdf
 
-##TODO
-add sample code using node-modbus-serial
-add modbus tables for inverter
+the example script uses modbus-serial to open a connection to the inverter and then poll for register 33049. This will respond with the value for DCVoltage1.
+
+All the registers are documented in the attached pdf. its possible to return upto 50 registers in a single request. I've found that the highest polling rate the inverters can handle is about every 2 seconds.
+
+There are lots of other examples of modbus commands in the modbus-serial repo
+
+PLEASE BE VERY CAREFUL SETTING REGISTERS. I TAKE NO RESPONSIBILTY IF YOU CHANGE A REGISTER AND BRICK THE INVERTER
