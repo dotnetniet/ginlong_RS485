@@ -1,0 +1,11 @@
+{
+	"name": "solis_inverter_coms_service",
+	"version": "1.0.0",
+	"description": "",
+	"main": "api.js",
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"modbus-serial": "^7.2.2"
+	}
+}
