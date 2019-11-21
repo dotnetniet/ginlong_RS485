@@ -1,4 +1,4 @@
-# ginlong_RS485
+# Ginlong_RS485
 instructions and code samples for connecting to ginlong inverter over RS485
 
 ## Hardware
@@ -12,8 +12,8 @@ The ginlong inverter uses an exceedconn EC series plug for the commes port. I be
 
 Only 2 pins are actually used for the connection.
 
-pin 3-A
-pin 4-B
+pin 3-A  
+pin 4-B  
 
 ### RS485 adapter
 
@@ -26,7 +26,7 @@ The most common are RS-485 USB adapters, which are also the easiest to work with
 ![alt text](https://github.com/RobertSmart/ginlong_RS485/blob/master/images/RS485_ttl.jpg "TTL RS485 adapter")
 
 
-##Connections
+## Connections
 It is simply a case of connecting pin 3 of the plug to the 'A' side of the RS485 adapter, and connecting pin 4 to the 'B' side of the connector.
 
 
